@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width:768px) and (max-width:1440px){
+body{
+    background-color:hsl(212, 45%, 89%) ;
+}
+.outer-box{
+    background-color:hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    max-width: 17%;
+    max-height: 400px;
+    padding: 10px;
+    text-align: center;
+}
+
+.inner-box{
+    border-radius: 15px;
+    height:200px;
+    background-image: url("/qr-code/images/image-qr-code.png");
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.outer-box h6{
+    color: hsl(218, 44%, 22%);
+font-weight: 700;
+}
+
+.outer-box p{
+    color:hsl(212, 45%, 89%);
+    font-weight: 400;
+    font-size: 15px;
+}
+}
+
+@media (min-width:375px) and (max-width:767px){
+body{
+    background-color:hsl(212, 45%, 89%) ;
+}
+
+.outer-box{
+background-color:hsl(0, 0%, 100%);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 15px;
+min-width:80%;
+min-height: 460px;
+padding: 10px;
+text-align: center;
+}
+
+.inner-box{
+width: 100%;
+border-radius: 15px;
+height:300px;
+background-image: url("/qr-code/images/image-qr-code.png");
+background-size: cover;
+margin-bottom: 20px;
+}
+
+.outer-box h6{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    }
+    
+.outer-box p{
+        color:hsl(212, 45%, 89%);
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+}
+
+
+
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+/* - White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
+
+/* ### Body Copy
+
+- Font size (paragraph): 15px */
+/* 
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 */
+
+
+
+
+
